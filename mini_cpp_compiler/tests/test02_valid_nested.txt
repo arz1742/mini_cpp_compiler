@@ -1,0 +1,13 @@
+int main() {
+    int a = 5;
+    int b = 10;
+    float c = 2.0;
+    if (a < b) {
+        if (b > 3) {
+            a += 1;
+        } else {
+            a = a + 2;
+        }
+    }
+    return a;
+}
